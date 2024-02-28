@@ -4,6 +4,8 @@ stages:
 
 build1:
   stage: build
+  tags:
+    - shell
   script:
     - echo "Do your build here"
 
